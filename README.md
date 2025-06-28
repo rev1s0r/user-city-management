@@ -1,17 +1,28 @@
-Zadanie 
+Assignment
 
-Technoligia Laravel 
+Technology: Laravel
 
-Vytvoriť tabuľky User, City a definovať vzťahy:
-One-To-Many, Many-To-One
-Tabuľka User musí obsahovať stĺpce:
-ID, Meno, priezvisko, pohlavie, email, City (Many-To-One)
-Tabuľka City musí obsahovať stĺpce
-ID a názov
+Create tables User and City and define the relationships: One-To-Many, Many-To-One.
+User table must contain the columns:
 
-Vytvoriť stránku kde bude zoznam užívateľov s možnosťou filtrovania
-podľa mesta (výber z možností) Vytvoriť stránku na pridávanie miest a
-užívateľov
-Vytvoriť stránku na editovanie užívateľov
-Pridávanie/editovanie užívateľov:
-Meno, priezvisko, pohlavie a City budú povinné údaje
+ID
+First name
+Last name
+Gender
+Email
+
+City (Many-To-One relationship). The City table must contain the columns:
+
+ID
+Name
+
+Create a page displaying a list of users with filtering by city (selection from options).
+Create a page for adding cities and users.
+Create a page for editing users.
+
+When adding/editing users, the following fields must be required:
+
+First name
+Last name
+Gender
+City
